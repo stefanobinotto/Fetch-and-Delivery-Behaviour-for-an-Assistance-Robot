@@ -28,6 +28,8 @@ Once an object is grasped it must be fetched and placed on the cylindrical table
 
 To navigate in the environment and to move from the pick-up table to the delivery tables, you must use the navigation module you developed in the previous assignment.
 
+The assignment is fulfilled if, in the end, the three coloured objects are delivered on top of the corresponding coloured table in the assigned sequence.
+
 ************************************************************************************************
 
 ### COMMANDS TO RUN THE PROGRAM
