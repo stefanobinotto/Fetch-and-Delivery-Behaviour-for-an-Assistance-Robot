@@ -1,0 +1,3 @@
+int32 ID #ID of the object requeste
+---
+apriltag_ros/AprilTagDetection[] collision_objects      #geometry_msgs/Pose[] collision_objects #from which we define the ID object pos
