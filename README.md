@@ -3,6 +3,7 @@
 This repository contains the delivery of the final project for the Intelligent Robotics course at UniPD - DEI 2022/23.
 
 Here is the [code](https://github.com/stefanobinotto/Fetch-and-Delivery-Behaviour-for-an-Assistance-Robot/tree/main/tiago_iaslab_simulation).
+Here are the [slides]() we presented to the professor, describing both the assignment of this project.
 
 **Group 24**:
 - Edoardo Bastianello, ID:2053077
