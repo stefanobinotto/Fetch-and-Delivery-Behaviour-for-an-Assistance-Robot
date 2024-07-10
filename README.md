@@ -13,7 +13,7 @@ Tiago has to navigate from a point A to a point B.
 Once reached point B, it has to detect the obstacles, and print on the screen the position of the cylindric tables visible from that pose.
 The static obstacles that are part of the map, e.g. the walls or the shelves, must not be detected as obstacles.
 
-The assignment is described [here](https://github.com/stefanobinotto/Fetch-and-Delivery-Behaviour-for-an-Assistance-Robot/blob/main/Assignment_1.pdf).
+The assignment 1 is described [here](https://github.com/stefanobinotto/Fetch-and-Delivery-Behaviour-for-an-Assistance-Robot/blob/main/Assignment_1.pdf).
 
 Our implementation is described [here](https://github.com/stefanobinotto/Fetch-and-Delivery-Behaviour-for-an-Assistance-Robot/tree/main/Report%20Group%2024%20-%20Assignment_1).
 
@@ -29,6 +29,10 @@ Once an object is grasped it must be fetched and placed on the cylindrical table
 To navigate in the environment and to move from the pick-up table to the delivery tables, you must use the navigation module you developed in the previous assignment.
 
 The assignment is fulfilled if, in the end, the three coloured objects are delivered on top of the corresponding coloured table in the assigned sequence.
+
+The assignment 2 is described [here](https://github.com/stefanobinotto/Fetch-and-Delivery-Behaviour-for-an-Assistance-Robot/blob/main/Assignment_2.pdf).
+
+Our implementation is described [here]().
 
 ************************************************************************************************
 
