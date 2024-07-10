@@ -1,13 +1,29 @@
 # Fetch-and-Delivery-Behaviour-for-an-Assistance-Robot
 
-This repository contains the delivery of the final project for the Intelligent Robotics course at UniPD - DEI 2022/23.
+This repository contains the delivery of the final group project for the Intelligent Robotics course at UniPD - DEI 2022/23.
 
 **Group 24**:
 - Edoardo Bastianello, ID:2053077
 - Stefano Binotto, ID: 2052421
 - Gionata Grotto, ID: 2052418
 
-### PROJECT DESCRIPTION
+## First part of the Project
+Implement a routine that let Tiago navigate inside the environment, composed by two rooms with obstacles and a narrow space. 
+Tiago has to navigate from a point A to a point B.
+Once reached point B, it has to detect the obstacles, and print on the screen the position of the cylindric tables visible from that pose.
+The static obstacles that are part of the map, e.g. the walls or the shelves, must not be detected as obstacles.
+
+The assignment is described [here](https://github.com/stefanobinotto/Fetch-and-Delivery-Behaviour-for-an-Assistance-Robot/blob/main/Assignment_1.pdf).
+
+Our implementation is described [here](https://github.com/stefanobinotto/Fetch-and-Delivery-Behaviour-for-an-Assistance-Robot/tree/main/Report%20Group%2024%20-%20Assignment_1).
+
+Example of detection output:
+<img src="https://github.com/stefanobinotto/Fetch-and-Delivery-Behaviour-for-an-Assistance-Robot/blob/main/Report%20Group%2024%20-%20Assignment_1/successful_partial_occlusion_example.PNG">
+
+## Second part of the Project
+
+
+## Final Project Description
 Program a robot that has to:
 - navigate to a table with 3 objects of different colors
 - detect the required object by scanning the tag
