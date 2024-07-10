@@ -7,7 +7,7 @@ This repository contains the delivery of the final group project for the Intelli
 - Stefano Binotto, ID: 2052421
 - Gionata Grotto, ID: 2052418
 
-## First part of the Project
+## First assignment of the Project
 Implement a routine that let Tiago navigate inside the environment, composed by two rooms with obstacles and a narrow space. 
 Tiago has to navigate from a point A to a point B.
 Once reached point B, it has to detect the obstacles, and print on the screen the position of the cylindric tables visible from that pose.
@@ -20,16 +20,15 @@ Our implementation is described [here](https://github.com/stefanobinotto/Fetch-a
 Example of detection output:
 <img src="https://github.com/stefanobinotto/Fetch-and-Delivery-Behaviour-for-an-Assistance-Robot/blob/main/Report%20Group%2024%20-%20Assignment_1/successful_partial_occlusion_example.PNG">
 
-## Second part of the Project
+## Second assignment of the Project
+Implement, in an assistance robot (namely a Tiago by PAL Robotics), a fetch and delivery behaviour for everyday objects.
+In the simulated environment there are 7 objects on a pick-up table: a red cube, a green triangle and a blue hexagon, plus 4 gold hexagons.
+The gold hexagons are obstacles, and Tiago must not collide with them (or with the table) while grasping the required objects.
+Once an object is grasped it must be fetched and placed on the cylindrical table of the same colour.
 
+To navigate in the environment and to move from the pick-up table to the delivery tables, you must use the navigation module you developed in the previous assignment.
 
-## Final Project Description
-Program a robot that has to:
-- navigate to a table with 3 objects of different colors
-- detect the required object by scanning the tag
-- pick the required object
-- bring the object to one of the 3 target tables, with color corresponding to the one of the required object
-- repeat the previous steps for each of the 3 objects
+************************************************************************************************
 
 ### COMMANDS TO RUN THE PROGRAM
 1. roslaunch tiago_iaslab_simulation start_simulation.launch world_name:=ias_lab_room_full_tables
